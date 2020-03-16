@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/3/paper/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">NewBrand</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="nav navbar-nav">
+                    <li><a href="/user">Set User</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+                <h3>Express Cookie</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3><%=msg%></h3>
+                <a href="/clearUser" class="btn btn-md btn-info">Clear User</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
